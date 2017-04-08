@@ -18,7 +18,7 @@ void	ft_print_comb2(void)
 			ft_putchar(',');
 			ft_putchar(' ');
 		} else
-			break;
+			return;
 		if (comb[2] < 9	|| comb[3] < 9) {
 			comb[2] += ++comb[3] / 10;
 			comb[3] %= 10;

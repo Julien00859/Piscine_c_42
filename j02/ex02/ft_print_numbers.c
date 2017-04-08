@@ -9,7 +9,7 @@ void	ft_print_numbers(void)
 		ft_putchar(num++);
 }
 
-int		main()
+int 	main()
 {
 	ft_print_numbers();
 	ft_putchar('\n');

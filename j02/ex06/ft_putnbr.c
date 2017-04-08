@@ -12,10 +12,9 @@ void	ft_putnbr(int nb)
 		nb %= power10;
 		power10 /= 10;
 	}
-	
 }
 
-void main()
+int 	main()
 {
 	ft_putnbr(42);
 	ft_putchar(' ');

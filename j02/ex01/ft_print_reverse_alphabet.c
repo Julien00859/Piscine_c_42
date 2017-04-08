@@ -5,13 +5,11 @@ void	ft_print_reverse_alphabet(void)
 	char letter;
 
 	letter = 'z';
-	while (letter >= 'a') {
-		ft_putchar(letter);
-		letter--;
-	}
+	while (letter >= 'a')
+		ft_putchar(letter--);
 }
 
-int		main()
+int 	main()
 {
 	ft_print_reverse_alphabet();
 	ft_putchar('\n');

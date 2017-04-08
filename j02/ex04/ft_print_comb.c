@@ -26,7 +26,7 @@ void	ft_print_comb(void)
 	}
 }
 
-int		main()
+int 	main()
 {
 	ft_print_comb();
 }

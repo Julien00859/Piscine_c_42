@@ -5,13 +5,11 @@ void	ft_print_alphabet(void)
 	char letter;
 
 	letter = 'a';
-	while (letter <= 'z') {
-		ft_putchar(letter);
-		letter++;
-	}
+	while (letter <= 'z')
+		ft_putchar(letter++);
 }
 
-int		main()
+int 	main()
 {
 	ft_print_alphabet();
 	ft_putchar('\n');

@@ -1,6 +1,7 @@
 #include "ft_putchar.c"
 
-void ft_print_combn(int n) {
+void 	ft_print_combn(int n)
+{
 	char comb[10];
 	int i;
 
@@ -27,7 +28,8 @@ void ft_print_combn(int n) {
 	}	
 }
 
-int main() {
+int 	main() 
+{
 	ft_print_combn(5);
 	ft_putchar('\n');
 }
