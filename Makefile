@@ -16,11 +16,12 @@ CINCS		= -Iinclude
 NB_THREAD	= -DNB_THREAD=$(shell nproc)
 
 FILES		= main				\
+			  unit_test			\
 			  ft_putchar		\
 			  ft_print_comb		\
 			  ft_print_comb2	\
 			  ft_print_combn	\
-			  ft_putnbr
+			  ft_putnbr			
 
 ifeq ($(MAKECMDGOALS),leaks)
 CFLAGS		+= -g3

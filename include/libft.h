@@ -1,17 +1,10 @@
-/*
- * libft.h
- * Copyright (C) 2017 dermenslof <francois@montaron.eu>
- *
- * Distributed under terms of the MIT license.
- */
-
 #ifndef LIBFT_H
 # define LIBFT_H
 
-#define abs(X) ((X) < 0 ? -(X) : (X))
-#define sign(X) ((X) < 0 ? -1 : 1)
-#define min(X, Y) ((X) < (Y) ? (X) : (Y))
-#define max(X, Y) ((X) > (Y) ? (X) : (Y)) 
+#define ft_abs(X) ((X) < 0 ? -(X) : (X))
+#define ft_sign(X) ((X) < 0 ? -1 : 1)
+#define ft_min(X, Y) ((X) < (Y) ? (X) : (Y))
+#define ft_max(X, Y) ((X) > (Y) ? (X) : (Y)) 
 
 void	ft_putchar(int c);
 void	ft_putnbr(int n);
